@@ -1,6 +1,6 @@
 This is a workflow and set of python scripts that extract a series of URLs and their metadata from a JSON file then caches them at the Internet Archive based on their update frequency.
 
-The JSON URL data comes from the Police Data Accountability Project.
+The JSON URL data comes from the Police Data Accessability Project.
 
 TO-DO:
 - alter the builder script to pull data directly from a database instead of buliding from JSON
