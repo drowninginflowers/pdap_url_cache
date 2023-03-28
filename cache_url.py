@@ -31,7 +31,7 @@ for entry in cache_info:
     if last_cached is None or last_cached + update_delta < datetime.today():
         source_url = entry.get('source_url')
         try :
-            archive = savepagenow.capture(source_url, user_agent="Police Data Accountability Project")
+            archive = savepagenow.capture(source_url, user_agent="Police Data Accessibility Project")
             # Update the last_cached date if cache is successful
             entry['last_cached'] = datetime.now().strftime('%m-%d-%Y')
         except Exception as error:
